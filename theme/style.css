@@ -1,11 +1,11 @@
 html {
-  height: 100vh;
+  height: 100%;
 }
 body {
-  height: 100vh;
+  height: 100%;
 }
 .gridscape {
-  height: 100vh;
+  height: 100%;
   position: relative;
 }
 
