@@ -1,35 +1,63 @@
-<body>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="theme/style.css">
-<title>V4P0RW4V3</title>
-  
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-  
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-  
-<div class="gridscape">
-    <div class="gridscape__horizon">
-        <div class="gridscape__sun"></div>
-    </div>
-    <div class="gridscape__land">
-        <div class="gridscape__lines"></div>
-        <div class="gridscape__overlay"></div>
-    </div>
-</div>
+<html lang="en" class="sr js anime-ready">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>V4P0RW4V3</title>
+      <link rel="icon" href="theme/logo.png" type="image/gif" sizes="16x16">
+      <link rel="stylesheet" href="theme/style.css">
+      <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+      <link href="theme/bootstrap.min.css" rel="stylesheet">
+   </head>
+   <body class="is-boxed has-animations" style="height: 100%;">
+      <div class="body-wrap">
+      <div class="container-fluid">
+         <div class="row">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+               <!-- Brand -->
+               <a class="navbar-brand px-5" href="#"><img class="logo" src="theme/logo.png" alt="Logo"></a>
+               <!-- Toggler/collapsibe Button -->
+               <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <!-- Navbar links -->
+               <div class="navbar-collapse mx-5 collapse" id="collapsibleNavbar" style="">
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a class="nav-link mx-2 text-white" href="#">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link mx-2 text-white" href="#features">News</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link mx-2 text-white" href="#Contact">Contact</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link mx-2 text-white" href="#About">About</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </div>
+      <script>
+         function Close() {
+           var div = document.getElementById("boxCookie");
+             div.style.display = "none";
+         }
+      </script>
+      <div class="gridscape">
+         <div class="gridscape__horizon">
+            <div class="gridscape__sun"></div>
+         </div>
+         <div class="gridscape__land">
+            <div class="gridscape__lines"></div>
+            <div class="gridscape__overlay"></div>
+         </div>
+      </div>
+   </body>
+</html>
