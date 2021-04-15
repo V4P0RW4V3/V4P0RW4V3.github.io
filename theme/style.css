@@ -77,22 +77,6 @@ body {
   width: 30vw;
 }
 
-.grain {
-  max-width: none;
-  width: 2200px;
-  height: 1024px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  opacity: 0.5;
-  pointer-events: none;
-}
-.audio {
-  display: none;
-}
-
 @keyframes move-up {
   0% {
     background-position: 0 0;
